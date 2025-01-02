@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("colorful.jpeg");
+  background-repeat: no-repeat;
+  background-size: 110% 110%;
+  background-attachment: fixed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+#text {
+  margin-top: -300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 70px;
+  right: -5000;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+
+}
+
+#starter .top {
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+#banner button:hover {
+  background: darkcyan;
+  color: white;
+  transform: translateY(15px);
+  transition: transform 0.3s ease 0;
+}
+
+.bgimg-1 {
+  position: relative;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url("backgroun3.jpg");
+  min-height: 100%;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1 {
+    background-attachment: scroll;
+  }
+}
+
+#navibar li {
+  margin-bottom: 2px;
+}
+
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #E3E6F3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#navibar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navibar li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+#navibar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  transition: 0.3s ease;
+}
+
+#hero {
+  background-image: url("Sreehan\ Adigopula3.png");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 20% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#hero h4 {
+  padding-bottom: 15px;
+}
+
+#hero h1 {
+  color: darkcyan;
+}
+
+#contant .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 220px;
+
+}
+
+.title{
+  color: cyan;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+.content .stuff {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 90px;
+}
+
+#contant .name .img1 {
+  border-radius: 5px;
+}
+
+#contant .text1 {
+  padding: 80px 80px;
+}
+
+.important {
+  color: red;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-top-color: rgb(234, 246, 246);
+  border-top-style: dotted;
+  border-top-width: 6px;
+  border-right-color: rgb(234, 246, 246);
+  border-right-style: dotted;
+  border-right-width: 6px;
+  border-bottom-color: rgb(234, 246, 246);
+  border-bottom-style: dotted;
+  border-bottom-width: 6px;
+  border-left-color: rgb(234, 246, 246);
+  border-left-style: dotted;
+  border-left-width: 6px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  width: 5%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+
+#banner h4 {
+  color: white;
+  font-size: 16px;
+}
+
+
+#banner h2 {
+  color: white;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+#banner h2 span {
+  color: red;
+}
+
+#thankyou {
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+#new {
+  padding: 20px;
+  text-align: center;
+}
+
+#new a {
+  text-decoration: none;
+  color: white;
+}
+
+#new h4 {
+  padding: 10px;
+  color: cyan;
+}
+
+#new h5 {
+  padding: 10px;
+  color: cyan;
+}
+
+
+#java {
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer p {
+  color: white;
+}

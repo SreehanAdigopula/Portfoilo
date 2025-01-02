@@ -1,0 +1,218 @@
+<div class="bgimg-1">
+  
+  <section id="header">
+        <a href="#"><img src="favicon.ico" class="logo" width="85px"></a>
+        <div>
+          <ul id="navibar">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="https://bio.link/sreehana"target="_blank">MyCreation</a></li>
+            <li><a href="https://sreehanadgopula.github.io/Form/"target="_blank">Contact</a></li>
+           
+          </ul>
+        </div>
+      </section>
+</div>  
+
+
+ #banner button:hover{
+    background: darkcyan;
+    color: white;
+    transform: translateY(15px);
+    transition: transform 0.3s ease 0;
+        }
+  .bgimg-1{
+  position: relative;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+  .bgimg-1 {
+    background-image: url("Sreehan\'s\ website\(1\).png");
+    min-height: 100%;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1{
+      background-attachment: scroll;
+    }
+  }
+  
+       #navibar li{
+          margin-bottom: 2px;
+          }
+        
+        
+        #header{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px 80px;
+          background:  #E3E6F3;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+          z-index: 999;
+          position: sticky;
+          top: 0;
+          left: 0;
+        }
+        #navibar{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        #navibar li{
+          list-style: none;
+          padding: 0 20px;
+        }
+
+        #navibar li a{
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: 500;
+          color: black;
+          transition: 0.3s ease;
+        }
+    #hero{
+          background-image: url("Sreehan\ Adigopula3.png");
+          height: 100vh;
+          width: 100%;
+          background-size: cover;
+          background-position: top 20% right 0;
+          padding: 0 80px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+        }
+
+        #hero h4{
+          padding-bottom: 15px;
+        }
+        #hero h1{
+          color: darkcyan;
+        }
+        #contant .name{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px 220px;
+          
+        }
+
+        #contant .name .img1{
+          border-radius: 5px;
+        }
+        
+        #contant .text1{
+          padding: 80px 80px;
+        }
+
+        hr {
+  border: dotted #EAF6F6 6px;
+    border-top-color: rgb(234, 246, 246);
+    border-top-style: dotted;
+   border-top-width: 6px;
+    border-right-color: rgb(234, 246, 246);
+    border-right-style: dotted;
+    border-right-width: 6px;
+    border-bottom-color: rgb(234, 246, 246);
+    border-bottom-style: dotted;
+    border-bottom-width: 6px;
+    border-left-color: rgb(234, 246, 246);
+    border-left-style: dotted;
+    border-left-width: 6px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+          width: 5%;
+          border-bottom: none;
+          margin: 100px auto;
+        }
+
+   #banner{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 40px;
+          }
+
+
+        #banner h4{
+          color: white;
+          font-size: 16px;
+        }
+
+
+        #banner h2{
+          color: white;
+          font-size: 30px;
+          padding: 10px 0;
+        }
+
+        #banner h2 span{
+          color: red;   
+  }
+        #thankyou{
+          align-items: center;
+          text-align: center;
+          padding: 20px;
+          color: white;
+        } 
+
+       .t1{
+         padding: 30px;
+       }
+       
+       h2pad{
+         padding: 40px;
+       } 
+
+       #new{
+         padding: 20px;
+         text-align: center;
+       }
+       #new a{
+         text-decoration: none;
+         color: white;
+       }
+
+       #new h4{
+         padding: 10px;
+         color: cyan;
+       }
+  #new h5{
+         padding: 10px;
+    color: cyan;
+       }
